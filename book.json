@@ -2,5 +2,16 @@
     "root": "./zh-CN",
     "structure": {
         "readme": "gb-readme.md"
+    },
+    "plugins": ["custom-js-css"],
+    "pluginsConfig": {
+        "custom-js-css": {
+            "js": [
+                "./custom/custom.js"
+            ],
+            "css": [
+                "./custom/custom.css"
+            ]
+        }
     }
 }
